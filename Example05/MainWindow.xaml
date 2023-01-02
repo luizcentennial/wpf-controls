@@ -1,0 +1,23 @@
+﻿<Window x:Class="Example05.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example05"
+        mc:Ignorable="d"
+        Title="Example 05" Height="450" Width="800">
+    <!--Grids are not the only container inside which controls can be placed.
+    There are a few different types of panels that can be used as well. The
+    example below shows how a StackPanel can be used to layout a basic view.-->
+    <StackPanel Width="200" VerticalAlignment="Center">
+        <!--StackPanels "stack" one control on top of the other, without the need
+        to define a row or a column a given control is supposed to be in.-->
+		<Label Content="Username:"/>
+		<TextBox/>
+
+		<Label Content="Password:"/>
+		<PasswordBox/>
+
+		<Button Content="Sign In" Margin="0 10 0 0"/>
+	</StackPanel>
+</Window>

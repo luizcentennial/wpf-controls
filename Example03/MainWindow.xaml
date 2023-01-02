@@ -1,0 +1,22 @@
+﻿<Window x:Class="Example03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example03"
+        mc:Ignorable="d"
+        Title="Example 03" Height="450" Width="800">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <!--To be able to properly position controls inside the Window,
+        the grid can define rows and columns, which may be sized per layout needs.-->
+		<Grid.RowDefinitions>
+			<RowDefinition Height="30"/>
+			<RowDefinition Height="30"/>
+		</Grid.RowDefinitions>
+
+        <!--Controls can set properties Grid.Row and Grid.Column to define the row
+        and column in which they are placed. -->
+		<Label Grid.Row="0" Content="The TextBox below accepts text inputs."/>
+		<TextBox Grid.Row="1" Width="200" Height="20"/>
+	</Grid>
+</Window>

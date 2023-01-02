@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Example02"
         mc:Ignorable="d"
-        Title="Example 02" Height="450" Width="800">
+        Title="Example 02" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <!--Properties 'HorizontalAlignment' and 'VerticalAlignment' can help position controls
     per your design needs.-->
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center">

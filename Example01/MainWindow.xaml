@@ -8,6 +8,6 @@
         Title="Example 01" Height="450" Width="800">
     <Grid>
         <!--XAML controls can be added inside this parent Grid (More on grids later).-->
-		<Label Content="I am a label. I display all text assigned to property 'Content'."/>
+		<Label Content="This is a label. It displays all text assigned to property 'Content'."/>
 	</Grid>
 </Window>
