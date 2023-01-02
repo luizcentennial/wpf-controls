@@ -1,0 +1,17 @@
+﻿<Window x:Class="Example00.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example00"
+        mc:Ignorable="d"
+
+        Title="Example 00" 
+        Height="300" 
+        Width="400"
+        ResizeMode="CanMinimize">
+	<!--The properties above can be updated to change basic Window attributes.-->
+	<Grid>
+
+    </Grid>
+</Window>

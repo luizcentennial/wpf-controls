@@ -1,0 +1,17 @@
+﻿<Window x:Class="Example02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example02"
+        mc:Ignorable="d"
+        Title="Example 02" Height="450" Width="800">
+    <!--Properties 'HorizontalAlignment' and 'VerticalAlignment' can help position controls
+    per your design needs.-->
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <!--'Click' is an event that is triggered when controls are clicked.
+        The button below executes a method (event handler) called 'OnClick' whenever
+        it's clicked. Method OnClick is defined in the code behind (MainWindow.xaml.cs).-->
+		<Button Content="Click Me" Click="OnClick"/>
+	</Grid>
+</Window>
