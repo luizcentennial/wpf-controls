@@ -11,7 +11,7 @@
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
         <!--'Click' is an event that is triggered when controls are clicked.
         The button below executes a method (event handler) called 'OnClick' whenever
-        it's clicked. Method OnClick is defined in the code behind (MainWindow.xaml.cs).-->
+        it's clicked. Method OnClick is defined in the code-behind (MainWindow.xaml.cs).-->
 		<Button Content="Click Me" Click="OnClick"/>
 	</Grid>
 </Window>

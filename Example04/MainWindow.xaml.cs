@@ -23,7 +23,7 @@ namespace Example04 {
 		}
 
 		private void OnClickOK(object sender, EventArgs e) {
-			// Named controls can be accessed in the code behind like any other class field.
+			// Named controls can be accessed in the code-behind like any other class field.
 			// Since txtName is a TextBox, we can retrieve its current value from property 'Text'.
 			string name = txtName.Text;
 

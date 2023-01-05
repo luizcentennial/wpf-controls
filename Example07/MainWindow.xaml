@@ -60,7 +60,7 @@
 
 		<StackPanel Margin="20">
 			<!--The good ol' combobox we all know and love. 
-			Couldn't wrap up with this example without mentioning it.-->
+			Couldn't wrap up this example without mentioning it.-->
 			<ComboBox Width="150">
 				<ComboBoxItem Content="Select an option" IsSelected="True" IsEnabled="False"/>
 				<ComboBoxItem Content="Option 1"/>

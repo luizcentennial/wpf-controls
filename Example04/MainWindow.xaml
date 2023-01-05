@@ -15,7 +15,7 @@
 
 		<Label Content="Please input your name below:" Grid.Row="0"/>
 
-		<!--To access a control in the code behind, it must be assigned an identifier
+		<!--To access a control in the code-behind, it must be assigned an identifier
 		via property 'Name'.-->
 		<TextBox Name="txtName" Height="20" Grid.Row="1"/>
 
