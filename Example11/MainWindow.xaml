@@ -1,0 +1,53 @@
+﻿<Window x:Class="Example11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example11"
+        mc:Ignorable="d"
+        Title="Example 11" Height="450" Width="800">
+	<!--Most applications provide users with menus from which a variety
+	of options can be selected. WPF applications offer two alternatives
+	out of the box: Menus and ContextMenus.-->
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="20"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<!--Menus are usually affixed at the top.-->
+		<Menu Grid.Row="0">
+			<MenuItem Header="File">
+				<MenuItem Header="Open"/>
+				<MenuItem Header="Save"/>
+				<Separator/>
+				<MenuItem Header="Close"/>
+			</MenuItem>
+			<MenuItem Header="Edit">
+				<MenuItem Header="Zoom In"/>
+				<MenuItem Header="Zoom Out"/>
+				<Separator/>
+				<MenuItem Header="Preferences"/>
+			</MenuItem>
+			<MenuItem Header="Help">
+				<MenuItem Header="About"/>
+			</MenuItem>
+		</Menu>
+
+		<StackPanel Grid.Row="1" Background="LightBlue" Width="500" Height="300">
+			<Label Content="Right-click anywhere in the blue area to reveal the context menu." Margin="10"/>
+
+			<StackPanel.ContextMenu>
+				<!--ContextMenus are usually accessible via right-click, and can be
+				made available at control level or window level.-->
+				<ContextMenu>
+					<MenuItem Header="Option 1"/>
+					<MenuItem Header="Option 2"/>
+					<MenuItem Header="Option 3"/>
+					<MenuItem Header="Option 4"/>
+					<Separator/>
+					<MenuItem Header="Option 5"/>
+				</ContextMenu>
+			</StackPanel.ContextMenu>
+		</StackPanel>
+	</Grid>
+</Window>
